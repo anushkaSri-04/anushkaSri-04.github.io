@@ -1,0 +1,203 @@
+*{
+    margin: 0cm;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #393646;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-all{
+    color: rgb(6, 0, 12);
+    font-size: 1rem;
+    margin-left: 35px;
+    border-width: 2rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+   
+}
+.border:hover{
+   border: 1.5px solid white;
+   
+}
+
+/* search box*/
+
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 650px;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(240, 193, 240);
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+}
+.nav-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border: black;
+   border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/*ORDERS*/
+.nav-order{
+display: flex;
+justify-content: center;
+}
+.order{
+font-size: 1rem;
+}
+
+/*cart*/
+.nav-cart{
+    display: flex;
+    justify-content: center;
+}
+.cart-icon{
+font-size: 1rem;
+}
+/*pROFILE SIGN-IN*/
+.nav-signin{
+    display: flex;
+    justify-content: center;
+}
+.sign-icon{
+    font-size: 1rem;
+}
+/*hero section*/
+.hero-section{
+    background-image: url(static\hero_image.jpg.jpeg);
+    background-size: cover;
+    height: 500px;   
+}
+.hero-msg{
+    text-align: center;
+    color: white;
+    text-decoration-color: white;
+    height: 50px;
+    font-size: 60px;
+}
+/*categoryyy*/
+.category{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:15px;
+}
+/*SHOP SECTION*/
+.shop-section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#F4EEE0 ;
+}
+.box{
+    height: 350px;
+    border:1px transparent black;
+    width: 25%;
+    padding: 5px 10px 5px;
+    
+}
+.box1-img{
+    background-image: url(Canvas.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+.box2-img{
+    background-image: url(arcylic.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+.box3-img{
+    background-image: url(crayons.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+.h2{
+    margin-top: 5px;
+}
+
+
+.shop-sec2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: #F4EEE0;
+}
+.box4-img{
+    background-image: url(Sketchbook.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+.box5-img{
+    background-image: url(Paint.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+.box6-img{
+    background-image: url(Easel.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+
+.shop-sec3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly; 
+    background-color:  #F4EEE0;
+}
+.box7-img{
+    background-image: url(PENS.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+.box8-img{
+    background-image: url(crayons.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+.box9-img{
+    background-image: url(pencils.jpeg);
+    height: 300px;
+    margin-top: 10px;
+}
+
+/*footer*/
+
+.b-panel{
+    height: 100%;
+    width: 15px;
+    background-color: black;
+}
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    background-color:#393646;
+}
+h3{
+    margin-top: 15px;
+}
+ul a{
+    display: block;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
